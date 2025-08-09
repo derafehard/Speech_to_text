@@ -20,4 +20,10 @@ if __name__ == '__main__':
 	with open('you_said_this.txt','w') as file:
 		file.write(phrase) 
 
+	print('the last sentence you spoke was saved in you_said_this.txt') if __name__ == '__main__':
+	phrase = record_voice()
+
+	with open('you_said_this.txt','w') as file:
+		file.write(phrase) 
+
 	print('the last sentence you spoke was saved in you_said_this.txt') 
